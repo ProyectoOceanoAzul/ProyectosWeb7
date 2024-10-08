@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<!-- <!DOCTYPE html>    indicamos al navegaor q estamos trabajando con la ultima version de html5  -->
+
+<html lang="es">
+
+<!-- head   : van los metadatos informaocion q indiucamos al navegador para q identifique de forma correcta la pagian web -->
+
+<head>
+
+    <!-- html lang="es">    indica en q idioma esta escrinto el docuimento html -->
+
+    <!-- indicamos al navegador q tenbemos vocales con tilde -->
+    <!-- Lea codigo ASCII-->
+    <meta charset="UTF-8">
+
+    <!-- Para q el visitio web sea adaptable a cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- contniendio de la pagina web -->
+    <meta name="description" content="Esta es mi primera pagina web">
+
+    <!-- para el motor de busquedad busque mi pagina / escanear-->
+    <meta name="robots" content="index, follow">
+
+    <!-- palabras claves para encontrar mi pagina web -->
+    <meta name="keywords" content="pagina, website, sitio web, mi primera">
+
+    <!-- Nombre de nuestra página -->
+    <meta name="copyright" content="Copyright © MiWeb.com">
+
+    <!-- Indicarle al autor de quien ha creado la pagina web -->
+    <meta name="Author" Lang="es" content="Gerson N">
+
+
+    <!-- para q la pagina se recargue cada 10 segundos de acuerdo al contenido -->
+    <meta http-equiv="refresh" content="10" />
+
+    <!-- 
+    observacion : para q despues de 5 segundos se recargue otra pogina web 
+
+    <meta http-equiv="refresh" content="5; url=https://www.youtube.com/@geronelo1435" />    
+    -->
+
+
+    <!-- normalize : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/normalize.css">
+
+
+    <!-- estilos css : agregamos un archivo .css -->
+    <link rel="stylesheet" href="./css/estilos.css">
+
+
+
+
+    <!-- icono en la pagina web : para importar iconos -->
+    <link rel="shortcut icon" href="./imagenes/icon.png" type="image/x-icon">
+
+    <!-- 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    -->
+
+    <!-- enlace para icnos de fontawesome -->
+    <script src="https://kit.fontawesome.com/2ad58faca7.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- 
+    colocar un nombre referido a lo q contiene el documento html  y se mostrara en una pestaña -->
+    <title>Maquetacion</title>
+
+</head>
+
+
+<body>
+
+
+    <!-- contenedor header -->
+    <div class="contenedor__header">
+
+        <!-- contenedor 1 supeiror -->
+        <div class="contenedor__superior">
+
+
+            <div class="contenedor">
+
+                <h1 class="contenedor__logo">
+                    mono
+                    <span class="logo__span">
+                        purple
+                    </span>
+                </h1>
+
+
+                <ul class="contenedor__menu">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#contact">contacto</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+        <!-- banner -->
+        <div class="contenedor__banner">
+
+            <div class="contenedor">
+
+                <div class="banner__logo">
+                    <img src="./imagenes/logroprogramacion1.svg" alt="logroprogramacion1" title="logroprogramacion1">
+                </div>
+
+
+
+
+                <div class="banner__texto">
+                    <h2 class="texto__titulo">
+                        <span class="estilo1">What makes a</span>
+                        <br>
+                        <span class="estilo2">Great</span>
+                        <br>
+
+                        <span class="estilo3">
+                            Product <br>
+                            Design <br>
+                            Team? <br>
+                        </span>
+
+                    </h2>
+
+
+
+                    <p class="texto__parrafo">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque eum modi corporis beatae ut.
+                        Itaque
+                        sequi nihil modi
+                        nisi aliquid asperiores voluptatibus quaerat eius ipsum.
+                    </p>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <!-- about -->
+    <div class="contenedor__about" id="about">
+
+        <div class="contenedor">
+
+            <div class="about__titulo">
+                <h2>
+                    about
+                </h2>
+
+            </div>
+
+
+            <div class="about__parrafo">
+
+                <p class="parrafo__estilo">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis quo possimus laborum placeat
+                    veniam nisi,
+                    perferendis deserunt? Optio voluptas quis ipsam magnam veniam sapiente provident culpa laboriosam, a
+                    aliquid, nam ex
+                    voluptate harum. Quis est eveniet nostrum doloremque doloribus repellat quae assumenda cupiditate,
+                    totam aperiam labore
+                    laudantium quasi aliquam hic nisi adipisci dolores fuga accusantium? Dignissimos distinctio minus
+                    rerum fugiat eveniet
+                    quidem, voluptates qui facilis, consequatur architecto dolores mollitia dicta.
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eum molestiae sit consectetur facere
+                    quas esse fuga sequi incidunt repellendus officia suscipit, blanditiis eos numquam ipsam delectus.
+                    Tempora, doloremque unde exercitationem similique eius totam perspiciatis et, deserunt error
+                    inventore laborum ea earum obcaecati itaque. Nesciunt, repellat accusantium doloremque fugiat
+                    numquam tenetur error commodi alias facilis, rerum consequuntur nisi voluptates qui? Excepturi
+                    blanditiis ea quis, explicabo nemo ipsa dolore eveniet maxime doloremque placeat sint earum velit,
+                    odio, iure consectetur consequatur minus?
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus placeat voluptate explicabo
+                    veritatis est officiis laboriosam dignissimos mollitia voluptatibus, provident vel omnis ullam, nam
+                    ex nemo ab repudiandae alias atque temporibus aliquam, eum quibusdam culpa? Corporis, sint excepturi
+                    accusamus fugiat quis voluptas tempora quas possimus dolor sapiente perspiciatis hic aperiam,
+                    nesciunt commodi, eveniet quia expedita. Totam, amet quia. Assumenda magni magnam recusandae maxime
+                    qui esse odio autem et officia ad deserunt saepe cum ex, nostrum dolorum delectus! Omnis, voluptas
+                    voluptatum distinctio ducimus quaerat dolores itaque tempore dolore exercitationem fugit aliquam
+                    repudiandae commodi voluptatibus perferendis. Eum distinctio fugiat dignissimos et soluta!
+                </p>
+
+
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere doloribus nemo, sit officiis quasi,
+                    delectus maiores sed recusandae tempora unde, officia cupiditate enim voluptatum cum aut eligendi
+                    pariatur deleniti sint culpa natus rerum cumque laborum ipsa. Harum libero, nisi alias culpa
+                    voluptatem esse. Sequi impedit, voluptates eum placeat mollitia quasi? Beatae impedit, laudantium
+                    delectus sed fugit totam expedita ex dolorem!
+                </p>
+
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+    <!-- contact -->
+    <div class="contenedor__contact" id="contact">
+
+        <div class="contenedor">
+
+            <div class="contact__formulario">
+
+                <form action="#" method="post">
+
+
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+
+                        <input type="text" name="nombre" id="nombre" placeholder="nombre" class="form-control">
+
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+
+                        <input type="email" name="email" id="email" placeholder="email" class="form-control">
+                    </div>
+
+
+
+                    <div class="form-group">
+                        <label for="mensaje">Message</label>
+
+                        <textarea name="mensaje" id="mensaje" placeholder="Mensaje" cols="30" rows="10"
+                            class="form-control"></textarea>
+
+                    </div>
+
+
+                    <button class="btn btn-dark">Submit</button>
+
+
+
+
+                </form>
+
+            </div>
+
+
+            <div class="contact__titulo">
+                <h2>
+                    contact
+                </h2>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
